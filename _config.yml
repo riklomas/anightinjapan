@@ -1,0 +1,31 @@
+---
+title: A Night In Japan
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: rik@superhi.com
+description: A blog about Japan
+baseurl: 
+url: 
+twitter_username: superhi_
+github_username: riklomas
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
